@@ -1,0 +1,33 @@
+{
+  "name": "prismic-lambda-webhook",
+  "version": "0.1.0",
+  "description": "Lambad based handler for Prismic.io webhook to build content",
+  "main": "webhook.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "aws",
+    "build",
+    "sns",
+    "prismic.io",
+    "webhook"
+  ],
+  "author": "Juha Mustonen",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.77.0",
+    "aws-sdk-mock": "^1.7.0",
+    "jest": "^20.0.4",
+    "serverless-plugin-optimize": "^3.0.1-rc.1"
+  },
+  "jest": {
+    "verbose": false
+  },
+  "dependencies": {
+    "debug": "^2.6.8"
+  }
+}
