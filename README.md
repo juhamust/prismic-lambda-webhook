@@ -2,6 +2,19 @@
 
 This repository contains the [AWS Lambda](https://aws.amazon.com/lambda/) based handler for [Prismic.io](https://prismic.io/) webhooks that are run whenever the content is changed in Prismic. Handy for building/publishing content using AWS Services.
 
+## Setup
+
+- Install [Node 6.10](https://nodejs.org/en/) (usage of NVM or n highly suggested!)
+- Install [Serverless](https://serverless.com/) 1.12: `npm i -g serverless@1.12` (likely to work with newer versions, too)
+- Clone this repo: `git clone https://github.com/juhamust/prismic-lambda-webhook.git`
+- Install dependencies: `cd prismic-lambda-webhook && npm install -D`
+- Run the tests (optional): `npm test`
+- Set unique `PRISMIC_WEBHOOK_SECRET` value in `env.yml`
+- Deploy the service: `sls deploy --profile=myawsprofile`
+- Copy the generated endpoint and your `PRISMIC_WEBHOOK_SECRET` and place them into Prismic.io Webhook settings
+- Tryout the trigger: It should be successfull. Check also AWS CloudWatch logs.
+
+
 ## Usage
 
 Sequence in short:
