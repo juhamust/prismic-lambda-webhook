@@ -1,3 +1,3 @@
 {
-  "body": "{ \"secret\": \"replace-me\" }"
+  "body": "{ \"secret\": \"my-secret\" }"
 }

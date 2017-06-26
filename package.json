@@ -19,15 +19,18 @@
   "author": "Juha Mustonen",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "^2.77.0",
-    "aws-sdk-mock": "^1.7.0",
-    "jest": "^20.0.4",
-    "serverless-plugin-optimize": "^3.0.1-rc.1"
+    "aws-sdk": "~2.77.0",
+    "aws-sdk-mock": "~1.7.0",
+    "babel-preset-env": "^1.5.2",
+    "jest": "~20.0.4",
+    "serverless-plugin-optimize": "~3.0.1-rc.1",
+    "sinon": "^2.3.5"
   },
   "jest": {
     "verbose": false
   },
   "dependencies": {
-    "debug": "^2.6.8"
+    "debug": "~2.6.8",
+    "prismic.io": "~3.5.7"
   }
 }
