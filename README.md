@@ -34,6 +34,11 @@ Sequence in short:
 
 ## Changelog
 
+#### 0.2.0
+
+- Added Prismic.io build example
+- Improved Serverless settings/options
+
 #### 0.1.0
 
 - Initial release
