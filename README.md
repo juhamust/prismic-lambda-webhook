@@ -10,8 +10,8 @@ This repository contains the [AWS Lambda](https://aws.amazon.com/lambda/) based 
 - Install dependencies: `cd prismic-lambda-webhook && npm install -D`
 - Run the tests (optional): `npm test`
 - Set unique `PRISMIC_WEBHOOK_SECRET` value in `env.yml`
-- Deploy the service: `sls deploy --profile=myawsprofile` ![aws webhook endpoint](https://github.com/jmu/prismic-lambda-webhook/raw/master/aws-webhook.png "AWS webhook endpoint")
-- Copy the generated endpoint and your `PRISMIC_WEBHOOK_SECRET` and place them into Prismic.io Webhook settings ![prismic webhook endpoint](https://github.com/jmu/prismic-lambda-webhook/raw/master/prismic-webhook.png "Prismic.io webhook endpoint")
+- Deploy the service: `sls deploy --profile=myawsprofile` ![aws webhook endpoint](https://github.com/juhamust/prismic-lambda-webhook/raw/master/aws-webhook.png "AWS webhook endpoint")
+- Copy the generated endpoint and your `PRISMIC_WEBHOOK_SECRET` and place them into Prismic.io Webhook settings ![prismic webhook endpoint](https://github.com/juhamust/prismic-lambda-webhook/raw/master/prismic-webhook.png "Prismic.io webhook endpoint")
 - Tryout the trigger: It should be successfull. Check also AWS CloudWatch logs.
 
 
