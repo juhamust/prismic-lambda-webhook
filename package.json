@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.5.2",
     "jest": "~20.0.4",
     "serverless-plugin-optimize": "~3.0.1-rc.1",
+    "serverless-plugin-tracing": "^1.0.6",
     "sinon": "^2.3.5"
   },
   "jest": {
